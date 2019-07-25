@@ -9,7 +9,7 @@
 
 <script>
  import Chart from 'chart.js';
- function canvas(){
+ export default function canvas(){
  var ctx = document.getElementById('myChart');
  var myDoughnutChart = new Chart(ctx, {
     type: 'doughnut',
@@ -31,7 +31,7 @@ data = {
 };
 
 var ctx2 = document.getElementById('myChart2');
-var myChart = new Chart(ctx2, {
+ var myChart = new Chart(ctx2, {
     type: 'bar',
     data: {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -67,9 +67,10 @@ var myChart = new Chart(ctx2, {
         }
     }
 });
+return myChart;
 }
 
-export default{
+{
     canvas
 }
 </script>

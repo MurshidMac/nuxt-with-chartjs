@@ -1,0 +1,21 @@
+{
+  "name": "nuxtspa",
+  "version": "1.0.0",
+  "description": "My incredible Nuxt.js project",
+  "author": "murshidmac",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "chart.js": "^2.8.0",
+    "nuxt": "^2.0.0",
+    "vue-chartjs": "^3.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
