@@ -3,10 +3,10 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxtchartjs
+        nuxtspa
       </h1>
       <h2 class="subtitle">
-        using chartjs inside nuxt app
+        My incredible Nuxt.js project
       </h2>
       <div class="links">
         <a
@@ -23,21 +23,17 @@
         >
           GitHub
         </a>
-        <chart />
       </div>
     </div>
   </div>
 </template>
 
-<script src="~/chartjs/Chart.js"></script>
-
 <script>
 import Logo from '~/components/Logo.vue'
-import Chart from '~/components/Chart.vue'
+
 export default {
   components: {
-    Logo,
-    Chart
+    Logo
   }
 }
 </script>
