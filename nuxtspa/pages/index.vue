@@ -25,15 +25,17 @@
         </a>
       </div>
     </div>
+    <Chart/>
   </div>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
-
+import Chart from '~/components/Chart.vue'
 export default {
   components: {
-    Logo
+    Logo,
+    Chart
   }
 }
 </script>
